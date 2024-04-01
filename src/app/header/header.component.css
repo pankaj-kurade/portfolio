@@ -7,10 +7,12 @@ header nav {
   z-index: 99;
 }
 .pankaj {
-  overflow: hidden;
+    position: relative;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
    height: 100vh;
+   padding: 8px;
+  margin: 0;
 }
 
 header {
@@ -200,7 +202,7 @@ header nav {
   font-size: 20px;
 }
 
-.skills {
+.skills { background-color: #8d8f9e93;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -229,14 +231,13 @@ header nav {
   height: 7.5vw;
   width: 7.5vw;
   object-fit: contain;
-  transition: width 1s, height 2s;
+  transition: width 1s, height 1s;
 }
 .skill-card img:hover {
     height: 15.5vw;
     width: 15.5vw;
     object-fit: contain;
   }
-
 
 
 
@@ -252,19 +253,29 @@ header nav {
   justify-content: center;
 }
 
-.darker-div {
-  background-color: #34353a;
-  width: 100vw;
-  height: 10vh;
+.darker-div  {
+  background-color: #0b0101e9;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  /* text-align: center; */
+  /* line-height: 50px; */
+  /* left: 300px; */
 }
-.experience h1 {
+
+
+.experience h1 { 
+      color: white;
   position: absolute;
-  color: #fbfbfb;
-  font-size: 56px;
-  font-family: "Libre Baskerville", serif;
-  transform: translate(-50%, -50%);
-  top: 10%;
-  left: 15%;
+  font-size: 30px ;
+left: 10%;
+line-height:  50px;
+
+   font-family: "Libre Baskerville", serif;
+  /* transform: translate(-50%, -50%); */
+  /* top: 10%;
+ 
+  /* text-align: center; */
 }
 .lighter-div {
   background-color: #878787;
