@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  downloadPDF() {
+    const link = document.createElement('a');
+    link.href = 'src/assets/pankajKurade.pdf'; // Path to your PDF
+    link.download = 'sample.pdf'; // Name for the downloaded file
+    link.click();
+  }
 
 }

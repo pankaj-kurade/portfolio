@@ -146,6 +146,10 @@ div {
 body {
   font-family: "Open Sans", sans-serif;
 }
+.resume{
+   text-decoration: none;
+   color: #000000;
+}
 
 header nav {
   display: flex;
