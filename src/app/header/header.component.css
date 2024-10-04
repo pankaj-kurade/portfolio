@@ -17,11 +17,12 @@ header nav {
 
 header {
   height: 100vh;
-  padding: 36px 100px;
+  /* padding: 36px 100px; */
+  width: 100%;
   background-position: right;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 100vw;
+  /* width: 100vw; */
   background-color: #f5e5ca;
 }
 .socials .line {
@@ -151,7 +152,7 @@ header nav {
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 90%;
+  width: 100%;
   z-index: 99;
 }
 
@@ -264,7 +265,7 @@ header nav {
 }
 
 
-.experience h1 { 
+.experience h1 {
       color: white;
   position: absolute;
   font-size: 30px ;
@@ -274,7 +275,7 @@ line-height:  50px;
    font-family: "Libre Baskerville", serif;
   /* transform: translate(-50%, -50%); */
   /* top: 10%;
- 
+
   /* text-align: center; */
 }
 .lighter-div {
@@ -320,8 +321,8 @@ line-height:  50px;
   background-color: #fbfbfb;
   position: absolute;
   transform: translate(-50%, -50%);
-     top: 10%; 
-    left: 25%; 
+     top: 10%;
+    left: 25%;
 
 }
 
@@ -331,6 +332,8 @@ line-height:  50px;
   align-items: start;
   gap: 0.5vw;
   padding: 10px 10px;
+  background-color: #878787;
+  width: 100%;
 }
 .nav2 li {
   padding: 1%;
