@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   downloadPDF() {
     const link = document.createElement('a');
-    link.href = 'src/assets/pankajKurade.pdf'; // Path to your PDF
-    link.download = 'sample.pdf'; // Name for the downloaded file
+    link.href = 'assets/pankajKurade.pdf'; // Path to your PDF
+    link.download = 'PankajKurade.pdf'; // Name for the downloaded file
     link.click();
+console.log(11);
   }
 
 }
