@@ -231,7 +231,8 @@ main {
 }
 
 .experience-item .highlights li::before {
-  content: '✓';\n  position: absolute;
+  content: '✓';
+  position: absolute;
   left: 0;
   color: var(--secondary-color);
   font-weight: bold;
