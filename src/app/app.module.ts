@@ -8,18 +8,10 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent
-  ],
   imports: [
-    BrowserModule,MatButtonModule,
+    BrowserModule,
+    MatButtonModule,
     AppRoutingModule
-  ],
-  providers: [
-    provideClientHydration(),
-    provideAnimationsAsync()
-  ],
-  bootstrap: [AppComponent]
+  ]
 })
 export class AppModule { }
